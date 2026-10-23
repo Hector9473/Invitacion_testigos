@@ -25,7 +25,7 @@ st.set_page_config(
 NOVIOS = "Valeria & Hector"
 FECHA_DIA = "08"
 FECHA_MES = "ENERO · 2027"
-HORA = "05:00 PM"
+HORA = "04:00 PM"
 
 LUGAR = "Parroquia Nuestra Señora del Café"
 CIUDAD = "Armenia, Quindío"
@@ -39,9 +39,11 @@ que queremos que ocupes ese día: el de
 """
 
 CUERPO = """
-Queremos que seas quien nos acompañe y firme junto a nosotros
-en ese momento tan especial. Tu presencia significa mucho
-para nosotros.
+Has sido parte de diferentes momentos de mi vida, 
+algunos alegres otros no tanto, conoces parte de mi historia
+y por eso quiero que me acompañes y seas testigo
+de este momento tan especial en mi vida. Tu presencia significa mucho
+para mi.
 """
 
 # Saludo por defecto si no se identifica al invitado por la URL
@@ -50,12 +52,9 @@ SALUDO_GENERICO = "Querid@ amig@"
 # Lista opcional de invitados: código (va en el enlace) -> nombre que se muestra
 # Si tu invitado no está en la lista, se usa el SALUDO_GENERICO.
 INVITADOS = {
-    "maria-jose": "Maria Jose",
-    "sandra-liliana": "Sandra Liliana",
-    "hector-fabio": "Hector Fabio",
-    "liliana": "Liliana",
-    "valeria-ramos": "Valeria Ramos",
-    "hector-salazar": "Hector Salazar",
+    "luisa_Cardona": "Luisa Maria ",
+    "dani": "Dani",
+
 }
 
 
@@ -76,12 +75,12 @@ CARBON = "#30352C"
 
 # True  -> muestra el panel lateral para subir la foto de portada.
 # False -> versión final para los invitados (sin panel).
-MODO_EDICION = True
+MODO_EDICION = False
 
 # Foto definitiva (la que verán los invitados) si ya tienes el archivo
 # guardado junto a este script. Escribe aquí su nombre, por ejemplo:
 # FOTO_PORTADA_FIJA = "portada.jpg"
-FOTO_PORTADA_FIJA = None
+FOTO_PORTADA_FIJA = "Cierre.jpeg"
 
 # Carpetas donde se busca la foto de portada (junto a este archivo).
 NOMBRES_CARPETA_FOTOS = ("fotos", "mi-carpeta")
