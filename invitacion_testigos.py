@@ -52,7 +52,7 @@ SALUDO_GENERICO = "Querid@ amig@"
 # Lista opcional de invitados: código (va en el enlace) -> nombre que se muestra
 # Si tu invitado no está en la lista, se usa el SALUDO_GENERICO.
 INVITADOS = {
-    "luisa_Cardona": "Luisa Maria ",
+    "luisa_cardona": "Luisa Maria ",
     "dani": "Dani",
 
 }
